@@ -1,0 +1,8 @@
+BACKUP log Adventureworks
+  To DISK= N'C:\BackupSQL\AWLog_NC_20.bak'
+  WITH 
+init
+,format
+,compression
+,NORECOVERY 
+,stats = 1
